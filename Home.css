@@ -1,9 +1,6 @@
 .u-section-1 {
   background: linear-gradient(to right, #ff7e5f, #feb47b);
   padding: 40px 20px;
-  display: flex; /* added to make the header menu more flexible */
-  flex-direction: column; /* added to make the header menu more flexible */
-  align-items: center; /* added to center the header menu */
 }
 
 .u-section-1 .u-sheet-1 {
@@ -58,23 +55,29 @@
   transform: scale(1.05);
 }
 
-.u-section-1 .u-container-layout {
+.u-section-1 .u-container-layout-1, .u-section-1 .u-container-layout-2,
+.u-section-1 .u-container-layout-3, .u-section-1 .u-container-layout-4,
+.u-section-1 .u-container-layout-5, .u-section-1 .u-container-layout-6 {
   padding: 30px 15px;
   text-align: center;
 }
 
-.u-section-1 .u-icon {
+.u-section-1 .u-icon-1, .u-section-1 .u-icon-2, .u-section-1 .u-icon-3,
+.u-section-1 .u-icon-4, .u-section-1 .u-icon-5, .u-section-1 .u-icon-6 {
   height: 64px;
   width: 64px;
   margin: 0 auto 15px;
   transition: transform 0.3s ease;
 }
 
-.u-section-1 .u-icon:hover {
+.u-section-1 .u-icon-1:hover, .u-section-1 .u-icon-2:hover,
+.u-section-1 .u-icon-3:hover, .u-section-1 .u-icon-4:hover,
+.u-section-1 .u-icon-5:hover, .u-section-1 .u-icon-6:hover {
   transform: rotate(360deg);
 }
 
-.u-section-1 .u-btn {
+.u-section-1 .u-btn-1, .u-section-1 .u-btn-2, .u-section-1 .u-btn-3,
+.u-section-1 .u-btn-4, .u-section-1 .u-btn-5, .u-section-1 .u-btn-6 {
   border: 2px solid #ff7e5f;
   font-weight: 700;
   text-transform: uppercase;
@@ -86,7 +89,8 @@
   transition: background 0.3s ease, color 0.3s ease;
 }
 
-.u-section-1 .u-btn:hover {
+.u-section-1 .u-btn-1:hover, .u-section-1 .u-btn-2:hover, .u-section-1 .u-btn-3:hover,
+.u-section-1 .u-btn-4:hover, .u-section-1 .u-btn-5:hover, .u-section-1 .u-btn-6:hover {
   background: #ff7e5f;
   color: #ffffff;
 }
@@ -123,7 +127,9 @@
     grid-template-columns: 100%;
   }
 
-  .u-section-1 .u-container-layout {
+  .u-section-1 .u-container-layout-1, .u-section-1 .u-container-layout-2,
+  .u-section-1 .u-container-layout-3, .u-section-1 .u-container-layout-4,
+  .u-section-1 .u-container-layout-5, .u-section-1 .u-container-layout-6 {
     padding: 10px;
   }
 }
