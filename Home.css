@@ -3,6 +3,13 @@
   padding: 40px 20px;
 }
 
+.u-section-1 .u-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically aligns items */
+  padding: 20px; /* Adjust padding as needed */
+}
+
 .u-section-1 .u-sheet-1 {
   min-height: 707px;
   background: #ffffff;
