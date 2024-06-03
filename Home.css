@@ -1,56 +1,14 @@
 .u-section-1 {
   background: linear-gradient(to right, #ff7e5f, #feb47b);
-  padding: 0;
-  position: relative;
-}
-
-.u-section-1 .u-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-.u-section-1 .u-header .u-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ff7e5f;
-}
-
-.u-section-1 .u-header .u-menu {
-  display: flex;
-  gap: 20px;
-}
-
-.u-section-1 .u-header .u-menu a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.u-section-1 .u-header .u-menu a:hover {
-  color: #ff7e5f;
-}
-
-.u-section-1 .u-image {
-  width: 100%;
-  height: auto;
+  padding: 40px 20px;
 }
 
 .u-section-1 .u-sheet-1 {
+  min-height: 707px;
   background: #ffffff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 20px;
-  position: relative;
-  z-index: 1;
-  margin: -20px 20px 20px;
 }
 
 .u-section-1 .u-text-1 {
@@ -161,11 +119,6 @@
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 10px));
-  }
-
-  .u-section-1 .u-header {
-    flex-direction: column;
-    gap: 10px;
   }
 }
 
