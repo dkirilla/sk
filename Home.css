@@ -139,3 +139,10 @@
     font-size: 2.25rem;
   }
 }
+
+.u-logo-image {
+  width: 100px; /* Adjust the width and height as needed */
+  height: 100px;
+  background-image: url('https://github.com/dkirilla/sk/blob/main/a31c21b0-51bc-4ecd-b4bb-320956cbee5a.jpeg');
+  background-size: cover; /* or contain, depending on your preference */
+}
